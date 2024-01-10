@@ -111,7 +111,7 @@ void uartTask()
 
         case '2':
             if ( gasDetector ) {
-                uartUsb.write( "Gas is being detected\r\n", 22);
+                uartUsb.write( "Gas is being detected\r\n", 23);
             } else {
                 uartUsb.write( "Gas is not being detected\r\n", 27);
             }
